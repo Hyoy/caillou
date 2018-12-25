@@ -45,9 +45,7 @@ $(document).ready(() => {
   });
 
   $('input').click(() => {
-    console.log($('.test')[0]);
-    $('body').toggleClass('nightmode')
-    $('.caillou-card').toggleClass('nightmode')
-    // console.log($('.test'));
+    $('body').toggleClass('nightmode');
+    $('.caillou-card').toggleClass('nightmode');
   });
 });
